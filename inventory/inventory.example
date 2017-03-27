@@ -29,3 +29,20 @@
 # [k8s-cluster:children]
 # kube-node
 # kube-master
+[kube-master]
+kgo1
+kgo2
+
+[etcd]
+kgo1
+kgo2
+kgo3
+
+[kube-node]
+kgo2
+kgo3
+kgo4
+
+[k8s-cluster:children]
+kube-node
+kube-master

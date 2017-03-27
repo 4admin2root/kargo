@@ -55,11 +55,11 @@ calico_policy_image_tag: "{{ calico_policy_version }}"
 calico_rr_image_repo: "quay.io/l23network/routereflector"
 calico_rr_image_tag: "v0.1"
 exechealthz_version: 1.1
-exechealthz_image_repo: "gcr.io/google_containers/exechealthz-amd64"
+exechealthz_image_repo: "docker.io/4admin2root/exechealthz-amd64"
 exechealthz_image_tag: "{{ exechealthz_version }}"
 hyperkube_image_repo: "quay.io/coreos/hyperkube"
 hyperkube_image_tag: "{{ kube_version }}_coreos.0"
-pod_infra_image_repo: "gcr.io/google_containers/pause-amd64"
+pod_infra_image_repo: "docker.io/4admin2root/pause-amd64"
 pod_infra_image_tag: "{{ pod_infra_version }}"
 netcheck_tag: "v1.0"
 netcheck_agent_img_repo: "quay.io/l23network/k8s-netchecker-agent"
@@ -75,28 +75,28 @@ dnsmasq_version: 2.72
 dnsmasq_image_repo: "andyshinn/dnsmasq"
 dnsmasq_image_tag: "{{ dnsmasq_version }}"
 kubednsmasq_version: 1.3
-kubednsmasq_image_repo: "gcr.io/google_containers/kube-dnsmasq-amd64"
+kubednsmasq_image_repo: "docker.io/4admin2root/kube-dnsmasq-amd64"
 kubednsmasq_image_tag: "{{ kubednsmasq_version }}"
 kubedns_version: 1.7
-kubedns_image_repo: "gcr.io/google_containers/kubedns-amd64"
+kubedns_image_repo: "docker.io/4admin2root/kubedns-amd64"
 kubedns_image_tag: "{{ kubedns_version }}"
 test_image_repo: busybox
 test_image_tag: latest
 elasticsearch_version: "v2.4.1"
-elasticsearch_image_repo: "gcr.io/google_containers/elasticsearch"
+elasticsearch_image_repo: "docker.io/4admin2root/elasticsearch"
 elasticsearch_image_tag: "{{ elasticsearch_version }}"
 fluentd_version: "1.22"
-fluentd_image_repo: "gcr.io/google_containers/fluentd-elasticsearch"
+fluentd_image_repo: "docker.io/4admin2root/fluentd-elasticsearch"
 fluentd_image_tag: "{{ fluentd_version }}"
 kibana_version: "v4.6.1"
-kibana_image_repo: "gcr.io/google_containers/kibana"
+kibana_image_repo: "docker.io/4admin2root/kibana"
 kibana_image_tag: "{{ kibana_version }}"
 
 helm_version: "v2.2.2"
 helm_image_repo: "lachlanevenson/k8s-helm"
 helm_image_tag: "{{ helm_version }}"
 tiller_version: "{{ helm_version }}"
-tiller_image_repo: "gcr.io/kubernetes-helm/tiller"
+tiller_image_repo: "docker.io/4admin2root/tiller"
 tiller_image_tag: "{{ tiller_version }}"
 
 downloads:

@@ -12,11 +12,11 @@ kubedns_min_replicas: 1
 kubedns_nodes_per_replica: 10
 
 # Images
-kubedns_image_repo: "gcr.io/google_containers/kubedns-amd64"
+kubedns_image_repo: "docker.io/4admin2root/kubedns-amd64"
 kubedns_image_tag: "{{ kubedns_version }}"
-kubednsmasq_image_repo: "gcr.io/google_containers/kube-dnsmasq-amd64"
+kubednsmasq_image_repo: "docker.io/4admin2root/kube-dnsmasq-amd64"
 kubednsmasq_image_tag: "{{ kubednsmasq_version }}"
-exechealthz_image_repo: "gcr.io/google_containers/exechealthz-amd64"
+exechealthz_image_repo: "docker.io/4admin2root/exechealthz-amd64"
 exechealthz_image_tag: "{{ exechealthz_version }}"
 
 # Netchecker
